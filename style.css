@@ -1,0 +1,69 @@
+body {
+    background-color: #3a3f3a;
+    font-family: 'Courier New', monospace;
+}
+
+.bio h1{
+    color: #2fc536;
+    text-align: center;
+}
+
+.bio p{
+    color: #d0d0d0;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #5a635a;
+    color: #d0d0d0;
+    text-align: left;
+}
+
+footer button {
+    background-color: transparent;
+    border: none;
+    color: #d0d0d0;
+    padding: 14px 16px;
+    font-size: 16px;
+}
+
+.wave-zone-mf, .wave-zone-uhf, .wave-zone-lband, .wave-zone-xband {
+  fill: transparent;
+  cursor: pointer;
+  transition: fill 0.3s ease; 
+}
+
+.wave-zone-mf:hover, .wave-zone-uhf:hover, .wave-zone-lband:hover, .wave-zone-xband:hover {
+  fill: #2fc5372a; 
+}
+
+.hidden-mf, .hidden-uhf, .hidden-lband, .hidden-xband {
+  display: none;
+  color: #d0d0d0;
+  text-align: center;
+}
+
+.waves:has(.wave-zone-mf:hover) .hidden-mf {
+  display: block;
+  color: #d0d0d0;
+  text-align: center;
+}
+.waves:has(.wave-zone-uhf:hover) .hidden-uhf {
+  display: block;
+  color: #d0d0d0;
+  text-align: center;
+}
+.waves:has(.wave-zone-lband:hover) .hidden-lband {
+  display: block;
+  color: #d0d0d0;
+  text-align: center;
+}
+.waves:has(.wave-zone-xband:hover) .hidden-xband {
+  display: block;
+  color: #d0d0d0;
+  text-align: center;
+}
