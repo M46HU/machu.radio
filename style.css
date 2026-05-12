@@ -3,6 +3,11 @@ body {
     font-family: 'Courier New', monospace;
 }
 
+.bio{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .bio h1{
     color: #2fc536;
     text-align: center;
@@ -66,4 +71,9 @@ footer button {
   display: block;
   color: #d0d0d0;
   text-align: center;
+}
+
+.hidden{
+  padding-left: 10%;
+  padding-right: 10%;
 }
